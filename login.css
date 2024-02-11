@@ -1,0 +1,66 @@
+body {
+    background-color: #2F77BB;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('background1.jpg'), url('background2.jpg'), url('background3.jpg'), url('background4.jpg');
+    background-size: cover;
+}
+
+.top-image {
+    width: 10%;
+    height: 110px; /* ajuste conforme necessário */
+    background-image: url(/img/LOGO.png);
+    background-size: cover;
+    position: fixed;
+    top: 20px;
+    left: CENTER;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2F77BB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links p {
+    margin-bottom: 10px;
+    color: #2F77BB;
+    cursor: pointer;
+    
+}
+p a {
+    text-decoration: none;
+}
